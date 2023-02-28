@@ -1,6 +1,10 @@
 module Main (main) where
 
-import Lib
+import System.Environment (getArgs)
+
+import Selector
 
 main :: IO ()
-main = someFunc
+main = do
+    args <- getArgs
+    Selector.select args

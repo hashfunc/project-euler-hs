@@ -23,7 +23,8 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Problem.P0001
+      Selector
   other-modules:
       Paths_project_euler_hs
   hs-source-dirs:
