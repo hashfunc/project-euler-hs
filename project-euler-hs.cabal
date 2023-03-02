@@ -25,6 +25,7 @@ library
   exposed-modules:
       Problem.P0001
       Problem.P0002
+      Problem.P0003
       Selector
   other-modules:
       Paths_project_euler_hs
